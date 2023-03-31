@@ -1,0 +1,18 @@
+- Each chess piece is drawn using blender
+- Each board piece is a quad so each board piece has an identity
+- Selection of objects using a click was a challenge. RGB we can use the Red component to resemble something of an ID.
+
+
+- The game provides minimum restrictions such as:
+	- Turn management
+	- Clicking on a board without clicking a piece does nothing
+	- Difference between opponent and ally object.
+	- Board pieces know if a chess object is on them
+
+- However, the game can be viewed as a physical chess game. No provisions to hints
+or illegal moves in place.
+
+Future Considerations:
+	- Provision of Hints
+	- Restriction of moves for each piece
+	- An AI a user can play with.
